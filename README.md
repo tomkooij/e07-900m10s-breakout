@@ -12,7 +12,9 @@ Connected to waveshare ESP32 s3 mini (ramses_esp clone)
  - C1 and C2 are 1206 SMD size
  - C1 = 100nF
  - C2 = 4.7uF
- - These caps are probably not needed. C1 is used to smooth Vcc and C2 as a buffer for large currents while sending.
+ - C2 is probably not needed, it is used as a buffer for large currents while sending.
+ - Antenna connector is [PCB SMA female](https://nl.aliexpress.com/item/1005005708712726.html) (use standard 1.8mm board thickness)
+ - The IPEX stamp antenna on the module should also be useable (not tested)
 
 This is my first KiCad/PCB. I'm happy it works!
 
