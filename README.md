@@ -13,7 +13,7 @@ Connected to waveshare ESP32 s3 mini (ramses_esp clone)
  - C1 = 100nF
  - C2 = 4.7uF
  - C2 is probably not needed, it is used as a buffer for large currents while sending.
- - Antenna connector is [PCB SMA female](https://nl.aliexpress.com/item/1005005708712726.html) (use standard 1.8mm board thickness)
+ - Antenna connector is [PCB SMA female](https://nl.aliexpress.com/item/1005005708712726.html) (use standard 1.6mm board thickness)
  - The IPEX stamp antenna on the module should also be useable (not tested)
 
 This is my first KiCad/PCB. I'm happy it works!
