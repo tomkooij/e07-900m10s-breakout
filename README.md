@@ -11,7 +11,7 @@ Connected to waveshare ESP32 s3 mini (ramses_esp clone)
  - The header is a standard .1" (2.54mm) PCB header.
  - C1 and C2 are 1206 SMD size
  - C1 = 100nF
- - C2 = 4.7uF
+ - C2 = 10uF
  - C2 is probably not needed, it is used as a buffer for large currents while sending.
  - Antenna connector is [PCB SMA female](https://nl.aliexpress.com/item/1005005708712726.html) (use standard 1.6mm board thickness)
  - The IPEX stamp antenna on the module should also be useable (not tested)
@@ -19,4 +19,4 @@ Connected to waveshare ESP32 s3 mini (ramses_esp clone)
 This is my first KiCad/PCB. I'm happy it works!
 
 This repo contains the KiCad 8 files as well as the gerbers to produce the PCB.
-I used JLPCB for my board. Just upload the zip-file in the gerber folder to JLPCB.
+I used JLCPCB for my board. Just upload the zip-file in the gerber folder to JLCPCB.
